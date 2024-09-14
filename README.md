@@ -65,6 +65,11 @@ subset_data2.csv
 
 These new files will contain the first 1000 rows (or the number you specify).
 
+### 6. Debugging and Issues
+
+- If you encounter the error `syntax error: unexpected end of file`, ensure the `for` loop in your script is properly closed with `done`.
+- Check for Windows-style line endings (use the `dos2unix` command to fix them if necessary).
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
