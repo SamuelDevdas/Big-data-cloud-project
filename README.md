@@ -65,6 +65,11 @@ subset_data2.csv
 
 These new files will contain the first 1000 rows (or the number you specify).
 
+### Check the results by running the following command:
+```
+ wc -l *.csv
+```
+
 ### 6. Debugging and Issues
 
 - If you encounter the error `syntax error: unexpected end of file`, ensure the `for` loop in your script is properly closed with `done`.
