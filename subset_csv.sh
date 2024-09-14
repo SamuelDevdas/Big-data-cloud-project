@@ -14,3 +14,5 @@ for file in *.csv; do
 
 # Script completed
 echo "Subsetting completed for all CSV files. Files saved in the 'subset_csv' folder."
+
+done
